@@ -7,7 +7,10 @@ eureka:
   instance:
     instance-id:  ${spring.application.name}:${server.port}
     prefer-ip-address: true # 访问路径可以显示IP地址
-
+    #用来修改eureka server默认接受心跳的最大时间 默认是90s
+    lease-expiration-duration-in-seconds: 10
+        #指定客户端多久向eureka server发送一次心跳 默认是30s
+    lease-renewal-interval-in-seconds: 5
 
 server:
   port: 8001
