@@ -18,3 +18,12 @@ eureka:
     lease-expiration-duration-in-seconds: 10
     #指定客户端多久向eureka server发送一次心跳 默认是30s
     lease-renewal-interval-in-seconds: 5
+
+zuul:
+  routes:
+    provider-product: # 路由名称，名称任意，保持所有路由名称唯一
+      path: /product/** # 访问路径
+      serviceId: microservice-product # 指定服务ID，会自动从Eureka中找到此服务的ip和端
+      stripPrefix: false
+
+

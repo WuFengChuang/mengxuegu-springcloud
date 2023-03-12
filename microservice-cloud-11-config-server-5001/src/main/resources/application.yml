@@ -1,0 +1,11 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/wu_feng_chuang/mengxuegu-springcloud-config.git
