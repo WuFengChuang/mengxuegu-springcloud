@@ -4,6 +4,9 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-06-provider-product-8002" />
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-07-consumer-product-feign" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-07-consumer-product-feign-81" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-08-provider-product-hystrix-8003" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-09-hystrix-dashboard-9001" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +17,7 @@
         <option value="$PROJECT_DIR$/../microservice-cloud-05-eureka-6002/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-cloud-03-provider-product-8001/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-cloud-04-consumer-product-80/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-cloud-07-consumer-product-feign-81/pom.xml" />
       </list>
     </option>
   </component>

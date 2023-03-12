@@ -3,21 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.mengxuegu.springcloud</groupId>
-        <artifactId>microservice-cloud-01</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>../microservice-cloud-01/pom.xml</relativePath>
-    </parent>
 
+    <groupId>org.example</groupId>
     <artifactId>microservice-cloud-02-api</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <relativePath>../microservice-cloud-01/pom.xml</relativePath>
     </properties>
-	<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -26,5 +24,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
 
 </project>

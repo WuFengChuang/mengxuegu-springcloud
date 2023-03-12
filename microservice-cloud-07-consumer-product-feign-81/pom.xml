@@ -7,7 +7,7 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../microservice-cloud-01/pom.xml</relativePath>
     </parent>
-    <artifactId>microservice-cloud-07-consumer-product-feign</artifactId>
+    <artifactId>microservice-cloud-07-consumer-product-feign-81</artifactId>
     <packaging>war</packaging>
     <name>microservice-cloud-07-consumer-product-feign Maven Webapp</name>
     <url>http://maven.apache.org</url>

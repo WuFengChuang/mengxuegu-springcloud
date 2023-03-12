@@ -18,3 +18,8 @@ eureka:
     lease-expiration-duration-in-seconds: 10
     #指定客户端多久向eureka server发送一次心跳 默认是30s
     lease-renewal-interval-in-seconds: 5
+
+  #开启熔断
+feign:
+  hystrix:
+    enabled: true
