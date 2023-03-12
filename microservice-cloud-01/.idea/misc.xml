@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-06-provider-product-8002" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-07-consumer-product-feign" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
