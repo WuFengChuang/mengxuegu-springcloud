@@ -8,6 +8,8 @@
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-08-provider-product-hystrix-8003" />
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-09-hystrix-dashboard-9001" />
     <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-10-zuul-gateway-7001" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-11-config-server-5001" />
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-12-config-client-8080" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

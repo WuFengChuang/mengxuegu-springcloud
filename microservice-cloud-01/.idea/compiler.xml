@@ -11,6 +11,7 @@
         <module name="microservice-cloud-05-eureka-6002" />
         <module name="microservice-cloud-07-consumer-product-feign-81" />
         <module name="microservice-cloud-09-hystrix-dashboard-9001" />
+        <module name="microservice-cloud-12-config-client-8080" />
         <module name="microservice-cloud-06-provider-product-8002" />
         <module name="microservice-cloud-05-eureka-6001" />
         <module name="microservice-cloud-10-zuul-gateway-7001" />
@@ -34,6 +35,7 @@
       <module name="microservice-cloud-09-hystrix-dashboard-9001" options="-parameters" />
       <module name="microservice-cloud-10-zuul-gateway-7001" options="-parameters" />
       <module name="microservice-cloud-11-config-server-5001" options="-parameters" />
+      <module name="microservice-cloud-12-config-client-8080" options="-parameters" />
     </option>
   </component>
 </project>
