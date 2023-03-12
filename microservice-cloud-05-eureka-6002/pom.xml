@@ -10,7 +10,7 @@
         <relativePath>../microservice-cloud-01/pom.xml</relativePath>
     </parent>
 
-    <artifactId>microservice-cloud-06-eureka-6002</artifactId>
+    <artifactId>microservice-cloud-05-eureka-6002</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../microservice-cloud-06-provider-product-8002" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-cloud-02-api/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-cloud-05-eureka-6001/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-cloud-05-eureka-6002/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-cloud-03-provider-product-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-cloud-04-consumer-product-80/pom.xml" />
       </list>
     </option>
   </component>

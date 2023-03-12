@@ -14,23 +14,26 @@ import java.util.List;
  */
 @RestController
 public class ProductControllerConsumer {
+    // 修改为Eureka注册中心的地址
+    //具体名字，在另一个服务的application.yml中spring-application-name配置
+    private static final String REST_URL_PREFIX = "http://microservice-product";
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
-
-//    @Autowired(required=true)
+    @Autowired
     private RestTemplate restTemplate;
-    ProductControllerConsumer(){
-        if(restTemplate == null){
-            System.out.println("restTemplate为空");
-            restTemplate = new RestTemplate();
-        }
-    }
+
+//    ProductControllerConsumer() {
+//        if (restTemplate == null) {
+//            System.out.println("restTemplate为空");
+//            restTemplate = new RestTemplate();
+//        }
+//    }
 
     @RequestMapping(value = "/consumer/product/add")
     public boolean add(Product product) {
-        if(restTemplate == null){
+        if (restTemplate == null) {
             System.out.println("restTemplate为空");
-        }else{
+        } else {
             System.out.println("restTemplate = " + product.toString());
         }
         return restTemplate.postForObject(REST_URL_PREFIX + "/product/add", product, Boolean.class);
